@@ -1,32 +1,30 @@
-# Insurance Fund Performance Analysis
+# ML2 - Machine Learning on Insurance Fund Performance
 
-This project analyzes insurance fund performance using classification and clustering techniques to predict fund Alpha levels and uncover meaningful patterns. The dataset includes various financial metrics, such as yields, market exposures, and risk-adjusted performance indicators.
+This repository applies supervised and unsupervised ML to analyze insurance fund data, predicting performance metrics and discovering patterns.
 
-## Objectives
+## What's Inside
+- `Code/`: Source code files.
+  - `Classification_ML.ipynb`: Supervised classification (Random Forest, Gradient Boosting, XGBoost, SVM, kNN) to predict fund Alpha levels.
+  - `Clustering.ipynb_ML`: Unsupervised clustering (K-Means, Agglomerative, DBSCAN) on fund characteristics.
+- `Data/`: Dataset folder (e.g., insurance fund data).
+- `Final_Write-up/`: Project report.
+- `Slide_show/`: Presentation slides.
+- `pictures/`: Images and figures.
+- `requirements.txt`: Python dependencies.
 
-### Classification
-Predict whether a fund's Alpha level is high or low based on financial features using supervised machine learning algorithms.
+## Project Goal
+Use ML to classify fund performance (high/low Alpha) and cluster financial metrics like yields, risks, and exposures.
 
-### Clustering
-Discover patterns in the dataset by grouping funds with similar characteristics using unsupervised learning techniques.
+## Technologies
+- Python
+- Jupyter Notebook
+- scikit-learn (classification/clustering)
+- pandas, numpy
 
-## Models Used
+## How to Run
+1. Clone the repo: `git clone https://github.com/Itamar-Melnik/ML2.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Open and run the notebooks in `Code/`.
 
-### Classification
-Supervised learning algorithms used for classification include:
-- **Random Forest**
-- **Gradient Boosting**
-- **XGBoost**
-- **Support Vector Machines (SVM)**
-- **k-Nearest Neighbors (kNN)**
-
-### Clustering
-Unsupervised learning algorithms used for clustering include:
-- **K-Means Clustering**
-- **Agglomerative Clustering**
-- **DBSCAN**
-
-## Repository Structure
-- **`Insurance_data/`**: Folder containing the raw dataset.
-- **`Classification_ML.ipynb`**: Python Jupyter Notebook for data preprocessing, classification.
-- **`Clustering.ipynb_ML`**: Python Jupyter Notebook for data preprocessing, clustering.
+## Status
+Academic project from 2025. No active development; archived for reference.
