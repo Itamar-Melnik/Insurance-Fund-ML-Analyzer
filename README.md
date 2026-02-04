@@ -59,7 +59,7 @@ ML2/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Itamar-Melnik/ML2.git
+   git clone https://github.com/Itamar-Melnik/Insurance-Fund-ML-Analyzer.git
    cd ML2
    ```
 
@@ -160,4 +160,4 @@ This project was developed in 2025 as an academic demonstration of machine learn
 
 ## 🔗 Repository
 
-[https://github.com/Itamar-Melnik/ML2](https://github.com/Itamar-Melnik/ML2)
+[https://github.com/Itamar-Melnik/Insurance-Fund-ML-Analyzer](https://github.com/Itamar-Melnik/Insurance-Fund-ML-Analyzer)
